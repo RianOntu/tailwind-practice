@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import BannerContent from "./BannerContent";
 
 function Banner() {
   return (
@@ -14,9 +15,12 @@ function Banner() {
           <div className="relative ">
             <div className="absolute w-full">
               <Navbar />
+             
+
             </div>
           </div>
         </div>
+        <BannerContent/>
       </div>
     </>
   );

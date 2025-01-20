@@ -10,11 +10,11 @@ function Navbar() {
           <div className="menu_items ">
             <ul className="flex items-center">
               <li>Home</li>
-              <li className="ml-2">Listings</li>
-              <li className="ml-2">Members</li>
-              <li className="ml-2">Blog</li>
-              <li className="ml-2">Pages</li>
-              <li className="ml-2">Contact</li>
+              <li className="ml-5">Listings</li>
+              <li className="ml-5">Members</li>
+              <li className="ml-5">Blog</li>
+              <li className="ml-5">Pages</li>
+              <li className="ml-5">Contact</li>
             </ul>
           </div>
 
