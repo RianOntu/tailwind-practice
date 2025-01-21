@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import FindProperties from "./components/FindProperties/FindProperties";
 import HomesForYou from "./components/HomesForYou/HomesForYou";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Banner/>
       <HomesForYou/>
+      <FindProperties/>
     </>
   );
 }

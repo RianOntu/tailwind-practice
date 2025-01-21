@@ -3,8 +3,14 @@ import React from "react";
 function HomeCard() {
   return (
     <>
-      <div className="card bg-white rounded-[5px] h-[453px] w-[447px]">
-        <img className="rounded-[5px] p-2" src="/assets/kitchen.jpg" alt="" />
+      <div className="card bg-white rounded-[24px] h-[453px] w-[447px]">
+        <div className="relative">
+        <img className="rounded-[24px] p-2 " src="/assets/kitchen.jpg" alt="" />
+        <p className="bg-[#1F4B43] absolute left-[28px] top-[28px] rounded-[20px] p-1 px-3 text-white">
+           FOR SALE
+        </p>
+        </div>
+       
         <div className="flex justify-between items-center mx-2">
           <h3 className="text-lg font-bold">Skyper Pool Apartment</h3>
           <h3 className="text-lg font-bold text-[#ED7964]">280,000</h3>
@@ -30,8 +36,8 @@ function HomeCard() {
           </div>
         </div>
       </div>
-      <div className="card bg-white rounded-[5px] h-[453px] w-[447px]">
-        <img className="rounded-[5px] p-2" src="/assets/kitchen.jpg" alt="" />
+      <div className="card bg-white rounded-[24px] h-[453px] w-[447px]">
+        <img className="rounded-[24px] p-2" src="/assets/kitchen.jpg" alt="" />
         <div className="flex justify-between items-center mx-2">
           <h3 className="text-lg font-bold">Skyper Pool Apartment</h3>
           <h3 className="text-lg font-bold text-[#ED7964]">280,000</h3>
@@ -57,8 +63,8 @@ function HomeCard() {
           </div>
         </div>
       </div>
-      <div className="card bg-white rounded-[5px] h-[453px] w-[447px]">
-        <img className="rounded-[5px] p-2" src="/assets/kitchen.jpg" alt="" />
+      <div className="card bg-white rounded-[24px] h-[453px] w-[447px]">
+        <img className="rounded-[24px] p-2" src="/assets/kitchen.jpg" alt="" />
         <div className="flex justify-between items-center mx-2">
           <h3 className="text-lg font-bold">Skyper Pool Apartment</h3>
           <h3 className="text-lg font-bold text-[#ED7964]">280,000</h3>
