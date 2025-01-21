@@ -15,12 +15,10 @@ function Banner() {
           <div className="relative ">
             <div className="absolute w-full">
               <Navbar />
-             
-
             </div>
           </div>
         </div>
-        <BannerContent/>
+        <BannerContent />
       </div>
     </>
   );
