@@ -6,7 +6,7 @@ function FindProperties() {
     <>
       <Layout>
         <div className="mt-[50px] mb-[50px]">
-          <h2 className="text-5xl font-black text-center">
+          <h2 className="text-3xl md:text-5xl font-black text-center">
             Find Properties In These Cities
           </h2>
           <p className="text-sm  text-center mt-3">
@@ -23,7 +23,7 @@ function FindProperties() {
               </div>
               
             </div>
-            <div className="relative col-span-1 h-[400px]">
+            <div className="relative col-span-2 md:col-span-1 h-[400px]">
               <img src="/assets/property.jpg" className="h-[400px] w-full object-cover object-center rounded-[24px]" alt="" />
               <div className="overlay absolute inset-0 rounded-[24px] bg-black/50"></div>
               <div className="absolute left-[24px] top-[34px]">
@@ -33,7 +33,7 @@ function FindProperties() {
               </div>
               
             </div>
-            <div className="relative col-span-1 h-[400px]">
+            <div className="relative col-span-2 md:col-span-1 h-[400px]">
               <img src="/assets/property.jpg" className="h-[400px] w-full object-cover object-center rounded-[24px]" alt="" />
               <div className="overlay absolute inset-0 rounded-[24px] bg-black/50"></div>
               <div className="absolute left-[24px] top-[34px]">
@@ -45,7 +45,7 @@ function FindProperties() {
             </div>
 
 
-            <div className="relative col-span-1 h-[400px]">
+            <div className="relative col-span-2 md:col-span-1 h-[400px]">
               <img src="/assets/property.jpg" className="h-[400px] w-full object-cover object-center rounded-[24px]" alt="" />
               <div className="overlay absolute inset-0 rounded-[24px] bg-black/50"></div>
               <div className="absolute left-[24px] top-[34px]">
@@ -55,7 +55,7 @@ function FindProperties() {
               </div>
               
             </div>
-            <div className="relative col-span-1 h-[400px]">
+            <div className="relative col-span-2 md:col-span-1 h-[400px]">
               <img src="/assets/property.jpg" className="h-[400px] w-full object-cover object-center rounded-[24px]" alt="" />
               <div className="overlay absolute inset-0 rounded-[24px] bg-black/50"></div>
               <div className="absolute left-[24px] top-[34px]">

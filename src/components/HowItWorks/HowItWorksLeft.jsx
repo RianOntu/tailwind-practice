@@ -3,20 +3,20 @@ import React from "react";
 function HowItWorksLeft() {
   return (
     <>
-      <div className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 w-[600px]">
+      <div className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 w-[300px] md:w-[600px] ">
         <img
           className="col-span-2 h-[250px] rounded-[24px]"
           src="/assets/howitworks.jpg"
           alt=""
         />
-        <div className="col-span-1 rounded-[24px]"></div>
+        <div className="hidden xl:block md:col-span-1 rounded-[24px]"></div>
         <img
-          className="col-span-1 rounded-[24px]"
+          className="col-span-2 md:col-span-1 xl:col-span-1 rounded-[24px]"
           src="/assets/howitworks1.jpg"
           alt=""
         />
         <img
-          className="col-span-2 h-[250px] rounded-[24px]"
+          className="col-span-2 lg:col-span-1  xl:col-span-2 h-[250px] rounded-[24px]"
           src="/assets/howitworks2.jpg"
           alt=""
         />

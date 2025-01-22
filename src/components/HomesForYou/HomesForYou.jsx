@@ -9,7 +9,7 @@ function HomesForYou() {
         <Layout>
           <div className="flex flex-col justify-center items-center h-full w-full">
             <div className="h-full w-full flex flex-col justify-center items-center">
-              <h1 className="text-5xl text-center font-semibold mt-[50px]">
+              <h1 className="text-3xl md:text-5xl text-center font-semibold mt-[50px]">
                 Homes For You
               </h1>
               <p className="text-sm text-center mt-3">
